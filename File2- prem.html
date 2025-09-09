@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2b2b2b; /* dark gray background */
+            color: #e0e0e0; /* light gray text */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #3a3a3a; /* medium gray container */
+            border: 1px solid #555;
+            box-shadow: 0 0 15px rgba(0, 191, 255, 0.2); /* sky blue glow */
+        }
+
+        .header {
+            background-color: #1e1e1e; /* dark header */
+            color: #00BFFF; /* sky blue text */
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .nav-menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .nav-menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-menu li {
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        .nav-menu a {
+            color: #00BFFF; /* sky blue links */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .nav-menu a:hover {
+            text-decoration: underline;
+        }
+
+        .profile-icon {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+            border: 5px solid #00BFFF;
+            box-shadow: 0 0 15px rgba(0, 191, 255, 0.5); /* sky blue glow */
+        }
+
+        .section {
+            padding: 20px;
+            border-bottom: 1px solid #555;
+        }
+
+        .section h2 {
+            font-weight: bold;
+            margin-top: 0;
+            color: #00BFFF; /* sky blue headings */
+        }
+
+        .section p, .section li {
+            color: #e0e0e0; /* light gray text */
+        }
+
+        ul.skills-list, ul.education-list {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="section" id="home">
+                <img src="https://i.supaimg.com/eadeafdc-5852-4f11-bfcf-3f9b05e42115.jpg" alt="Profile Icon" class="profile-icon">
+                <h1>Hello, I am PREMKUMAR</h1>
+            </div>
+        </div>
+
+        <div class="section" id="about">
+            <h2>About Me</h2>
+            <p>Hello, I'm Premkumar, but you can call me Prem. I'm currently pursuing my Bachelor's degree in Computer Applications (BCA) at Government Arts College, Chidambaram. I'm passionate about technology and innovation, and I'm excited to learn and grow in the field of computer science.</p>
+        </div>
+
+        <div class="section" id="skills">
+            <h2>Skills</h2>
+            <p>Programming Languages:</p>
+            <ul class="skills-list">
+                <li>C</li>
+                <li>Python</li>
+            </ul>
+        </div>
+
+        <div class="section" id="education">
+            <h2>Education</h2>
+            <ul class="education-list">
+                <li>Bachelor of Computer Applications (BCA)</li>
+                <li>Currently studying at Government Arts College, located in C. Mutlur, Chidambaram.</li>
+                <li>Focus: Computer Science, Software Development, and Technology</li>
+            </ul>
+        </div>
+
+        <div class="section" id="contact">
+            <h2>Contact Me</h2>
+            <ul>
+                <li>Email: Premkumarpaveen@gmail.com</li>
+                <li>Location: Chidambaram, Tamil Nadu</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
